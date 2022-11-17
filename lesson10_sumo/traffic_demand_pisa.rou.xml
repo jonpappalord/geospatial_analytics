@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType id="type1" length="5.00" maxSpeed="70.00" accel="2.6" decel="4.5" sigma="0.5"/>
+    
+    <!-- FLOWS -->
+    <flow id="flow_0" begin="0" end="500" number="10" from="-105140745#1" to="313284660#0" type="type1" color="blue"></flow>
+    <flow id="flow_osm" begin="0" end="0" number="1" from="194378522#2" to="-323469909" via="-132431055#37 939794672#4 1033581870#1 1033581875 678120789#3 1101498831 1101498830#0 152406792#0 153772599#2 55804771#1 55804771#6 22998347#1 585676805#0 19881666#0 19881666#3 53352069#1 53352069#5" type="type1" color="yellow"></flow>
+
+
+
+</routes>
