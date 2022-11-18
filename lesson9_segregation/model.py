@@ -67,7 +67,7 @@ class SchellingModel(Model):
 
                 agent = SchellingAgent(agent_id, (x, y), self, agent_type)      #instance of agent class
                 agent_id += 1
-                self.grid.position_agent(agent, (x, y))    #Positions an agent on the grid, and set its pos variable.                        
+                self.grid.place_agent(agent, (x, y))    #Positions an agent on the grid, and set its pos variable.                        
                 self.schedule.add(agent)                   #Add an Agent object to the schedule.
 
 
