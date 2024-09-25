@@ -1,0 +1,26 @@
+#ignore all shapefiles
+
+*.shp
+*.shx
+*.dbf
+*.cpg
+*.prj
+*.sbn
+*.prj
+*.dbf
+
+
+
+*.html
+*.zip
+*.sbx
+*.geojson
+*.json
+
+*.txt
+
+
+*.pdf
+
+*.csv
+
