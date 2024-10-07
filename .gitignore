@@ -1,32 +1,23 @@
-#ignore all shapefiles
-
+# Ignore all shapefiles and related files
 *.shp
 *.shx
 *.dbf
 *.cpg
 *.prj
 *.sbn
-*.prj
-*.dbf
-
-
+*.sbx
 
 *.html
 *.zip
-*.sbx
 *.geojson
 *.json
 
 *.txt
-
-
 *.pdf
-
 *.csv
 
 data/Takeout
 
-# Exception for "2024/2- Spatial Data Analysis/data/"
-!"2024/"
-!"2024/2- Spatial Data Analysis/"
-!"2024/2- Spatial Data Analysis/data/"
+# Exception for the 2024 directory and its contents
+!2024/
+!2024/**
